@@ -37,6 +37,10 @@ blocks = [
     np.array([[0, 1],
     [1, 1],
     [1, 0]]),
+    # Z flipped
+    np.array([[1, 0],
+    [1, 1],
+    [0, 1]]),
     # short diagonal
     np.array([[0, 1],
     [1, 0]]),
@@ -63,3 +67,10 @@ blocks = [
     np.array([[1],
     [1]]),
 ]
+
+
+combinations = { 
+    'vertical_line' : np.array([[1],[1],[1],[1],[1],[1],[1],[1],[1]]),
+    'horizontal_line' : np.array([[1,1,1,1,1,1,1,1,1]]),
+    'full_square' : np.array([[1, 1, 1],[1, 1, 1],[1, 1, 1]]) 
+    }
